@@ -1,0 +1,10 @@
+.active{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    border-bottom: 2px red;
+}
+
+.nnavbar{
+    margin-left: 180px;
+}

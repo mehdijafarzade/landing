@@ -1,20 +1,50 @@
-.contain{
+.father{
+  position: relative;
   display: flex;
   justify-content: end;
 }
 
-.childpic{
-  position: absolute;
-  max-width: 450px;
-  margin-top: 250px;
-  margin-right: 200px;
-}
+
+
 .fatherpic{
-  position: relative;
-  max-width: 650px;
+  margin-right: 0;
+  max-width: 600px;
 }
-@media(max-width: 768px){
-  .fatherpic{
-    display: none;
-  }
+
+.navchild{
+  position: absolute;
+}
+
+.childpic{
+  
+  position: absolute;
+  margin-top: 140px;
+}
+
+.logo{
+
+color: rgb(247, 166, 15);
+font-size: xx-large;
+}
+
+.h2n{
+  text-align: right;
+  font-family: 'mok';
+}
+.h2m{
+  text-align: right;
+  font-family: 'mok';
+}
+
+@font-face {
+  font-family: 'mok';
+  src: url('../assets/fonts/mokhtar.ttf');
+}
+@font-face {
+  font-family: 'lalezar';
+  src: url('../assets/fonts/Lalezar.ttf');
+}
+
+.spanb{
+  font-family: 'lalezar';
 }

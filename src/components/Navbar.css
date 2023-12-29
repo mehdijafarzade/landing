@@ -5,6 +5,19 @@
     border-bottom: 2px red;
 }
 
-.nnavbar{
-    margin-left: 180px;
+.navbarm{
+   margin-right: 0px;
+   position: absolute; 
+   font-family: 'lalezar';
 }
+
+@media (max-width: 768px) {
+    .nnavbar {
+      display: none;
+    }
+  }
+
+  @font-face {
+    font-family: 'lalezar';
+    src: url('../assets/fonts/Lalezar.ttf');
+  }

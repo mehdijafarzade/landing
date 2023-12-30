@@ -8,6 +8,9 @@ import Col from 'react-bootstrap/Col';
 import bannerback from '../assets/images/home-banner-background.png'
 import { Button } from 'react-bootstrap';
 import { TiArrowRightOutline } from "react-icons/ti";
+import Videoplayer from '../components/videoplayer';
+import cheff from '../assets/images/cheff.jpg'
+
 
 
 function Home() {
@@ -58,6 +61,19 @@ function Home() {
       </Col>
 
 
+      </Row>
+
+      <Row>
+        <Col className='col-sm-12 col-md-6 '>
+        <Videoplayer />
+        </Col>
+
+
+        <Col className='col-sm-12 col-md-6'>
+        
+        <img  className='img-fluid cheff ' src={cheff}/>
+       
+        </Col>
       </Row>
 
       </Container>

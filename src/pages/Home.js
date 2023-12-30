@@ -12,6 +12,8 @@ import Videoplayer from '../components/videoplayer';
 import cheff from '../assets/images/cheff.jpg'
 import datam from '../data.json'
 import BasicCart from '../components/cartitem';
+import Work from '../components/work';
+import Contact from '../components/contact';
 
 
 
@@ -89,6 +91,14 @@ function Home() {
         })}
       </Row>
 
+
+        <Row>
+          <Work />
+        </Row>
+
+        <Row>
+          <Contact />
+        </Row>
       </Container>
       
     );

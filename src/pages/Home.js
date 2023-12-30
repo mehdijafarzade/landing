@@ -14,6 +14,7 @@ import datam from '../data.json'
 import BasicCart from '../components/cartitem';
 import Work from '../components/work';
 import Contact from '../components/contact';
+import Footer from '../components/footer';
 
 
 
@@ -99,6 +100,12 @@ function Home() {
         <Row>
           <Contact />
         </Row>
+
+        <Row>
+        <Footer />
+        </Row>
+
+
       </Container>
       
     );

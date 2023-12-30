@@ -10,6 +10,8 @@ import { Button } from 'react-bootstrap';
 import { TiArrowRightOutline } from "react-icons/ti";
 import Videoplayer from '../components/videoplayer';
 import cheff from '../assets/images/cheff.jpg'
+import datam from '../data.json'
+import BasicCart from '../components/cartitem';
 
 
 
@@ -74,6 +76,17 @@ function Home() {
         <img  className='img-fluid cheff ' src={cheff}/>
        
         </Col>
+      </Row>
+
+
+      <Row xsm={1} sm={1} md={4}>
+        {datam.map((item)=>{
+          return (
+          <Col className='mt-5'>
+          <BasicCart item={item}/>
+          </Col>
+          )
+        })}
       </Row>
 
       </Container>

@@ -1,4 +1,4 @@
-import chef from '../assets/video/chef.mp4';
+
 import thum from '../assets/images/thum.jpg';
 
 function Videoplayer() {
